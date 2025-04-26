@@ -169,18 +169,18 @@ ul {
     text-align: center;
 }*/
 
-.modal-content {
+  .modal-content {
     position: fixed;
-    top: 50px;
-    bottom: 50px;
-    left: 100px; /* 50px Abstand von der linken Seite */
-    right: 100px; /* 50px Abstand von der rechten Seite */
+    top: 50px;        /* Abstand nach oben */
+    left: 100px;      /* Abstand links */
+    right: 100px;     /* Abstand rechts */
     
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
     box-sizing: border-box;
     overflow: auto;
+    max-height: calc(100vh - 100px); /* verhindert, dass es zu groß wird */
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
   }
   
