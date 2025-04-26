@@ -18,7 +18,8 @@
             <div class="rowGur">
                 <div class="person">
                     <div class="person-image">
-                        <img src="https://static.wixstatic.com/media/b7cbbb_55844fda3a954c22bee003ba71697434~mv2.jpg"
+                        <img id="popupImage"
+                            src="https://static.wixstatic.com/media/b7cbbb_55844fda3a954c22bee003ba71697434~mv2.jpg"
                             alt="Card Image">
                     </div>
                     <div class="personName">Gurmangal Dass</div>
@@ -29,6 +30,115 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Modal -->
+            <div id="imageModal" class="modal">
+                <div class="modal-content">
+                    <img src="https://static.wixstatic.com/media/b7cbbb_55844fda3a954c22bee003ba71697434~mv2.jpg">
+                    <span class="close">&times;</span>
+                    <div class="personName">Gurmangal Dass</div>
+                    <div class="Information-Beruf">Founder and CEO<br>
+                        YFC Rurka Kalan</div>
+                    <div class="Information-Daten">Phone: +49 (0) 821 598-3303<br>
+                        E-Mail: <a href="mailto:gurmangal@yfcrurkakalan.org">Gurmangal@yfcrurkakalan.org</a>
+                    </div>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc at condimentum
+                        ullamcorper, sapien libero luctus leo, ut egestas justo nibh in justo. Curabitur dignissim justo
+                        nec velit convallis, ac porttitor leo dapibus. Suspendisse potenti. Nulla eget neque ac neque
+                        rutrum ullamcorper. Cras dapibus orci a enim facilisis, at varius est luctus. Vivamus eu lorem
+                        quis nibh sollicitudin tincidunt. Donec vehicula tellus sit amet purus lobortis, eget gravida
+                        orci efficitur.
+                    </p>
+                    <p>
+                        Integer sed magna eu lorem interdum sollicitudin. Nullam hendrerit lorem in dolor suscipit
+                        luctus. Morbi condimentum elit nec magna congue, sed porta eros blandit. Mauris condimentum
+                        velit sed metus varius fermentum. In efficitur orci in malesuada tristique. Suspendisse potenti.
+                        Vivamus venenatis lacinia neque, nec varius orci posuere non. Etiam tincidunt, mi at bibendum
+                        finibus, turpis eros mattis nunc, at hendrerit neque lacus a mauris. Vestibulum tristique felis
+                        at dolor iaculis, vitae lobortis erat sodales.
+                    </p>
+                    <p>
+                        Fusce accumsan est vitae justo feugiat volutpat. Sed nec blandit nibh, ac viverra risus. Integer
+                        varius ante eget orci lobortis bibendum. Sed sollicitudin, libero ac cursus varius, felis nunc
+                        egestas lectus, ut laoreet magna lacus nec lorem. Maecenas fringilla dapibus porttitor. Etiam
+                        vel sodales nulla. Sed tincidunt laoreet tellus, at fringilla enim posuere a. Mauris tincidunt
+                        felis a turpis laoreet, eget condimentum ex ultrices.
+                    </p>
+                    <p>
+                        Quisque dignissim nisi quis justo porttitor, nec fermentum nisi hendrerit. Cras finibus sodales
+                        justo, nec pulvinar arcu. Sed maximus, metus eget sagittis finibus, nibh augue imperdiet felis,
+                        vel facilisis nulla enim et velit. Donec nec pretium ligula. Aenean efficitur, nunc nec blandit
+                        lobortis, sapien lorem euismod magna, sed porttitor tortor nulla at augue. Vestibulum efficitur
+                        erat in luctus bibendum. Etiam porttitor, elit sit amet efficitur dapibus, erat quam lacinia
+                        elit, ut finibus orci felis et mauris.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc at condimentum
+                        ullamcorper, sapien libero luctus leo, ut egestas justo nibh in justo. Curabitur dignissim justo
+                        nec velit convallis, ac porttitor leo dapibus. Suspendisse potenti. Nulla eget neque ac neque
+                        rutrum ullamcorper. Cras dapibus orci a enim facilisis, at varius est luctus. Vivamus eu lorem
+                        quis nibh sollicitudin tincidunt. Donec vehicula tellus sit amet purus lobortis, eget gravida
+                        orci efficitur.
+                    </p>
+                    <p>
+                        Integer sed magna eu lorem interdum sollicitudin. Nullam hendrerit lorem in dolor suscipit
+                        luctus. Morbi condimentum elit nec magna congue, sed porta eros blandit. Mauris condimentum
+                        velit sed metus varius fermentum. In efficitur orci in malesuada tristique. Suspendisse potenti.
+                        Vivamus venenatis lacinia neque, nec varius orci posuere non. Etiam tincidunt, mi at bibendum
+                        finibus, turpis eros mattis nunc, at hendrerit neque lacus a mauris. Vestibulum tristique felis
+                        at dolor iaculis, vitae lobortis erat sodales.
+                    </p>
+                    <p>
+                        Fusce accumsan est vitae justo feugiat volutpat. Sed nec blandit nibh, ac viverra risus. Integer
+                        varius ante eget orci lobortis bibendum. Sed sollicitudin, libero ac cursus varius, felis nunc
+                        egestas lectus, ut laoreet magna lacus nec lorem. Maecenas fringilla dapibus porttitor. Etiam
+                        vel sodales nulla. Sed tincidunt laoreet tellus, at fringilla enim posuere a. Mauris tincidunt
+                        felis a turpis laoreet, eget condimentum ex ultrices.
+                    </p>
+                    <p>
+                        Quisque dignissim nisi quis justo porttitor, nec fermentum nisi hendrerit. Cras finibus sodales
+                        justo, nec pulvinar arcu. Sed maximus, metus eget sagittis finibus, nibh augue imperdiet felis,
+                        vel facilisis nulla enim et velit. Donec nec pretium ligula. Aenean efficitur, nunc nec blandit
+                        lobortis, sapien lorem euismod magna, sed porttitor tortor nulla at augue. Vestibulum efficitur
+                        erat in luctus bibendum. Etiam porttitor, elit sit amet efficitur dapibus, erat quam lacinia
+                        elit, ut finibus orci felis et mauris.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc at condimentum
+                        ullamcorper, sapien libero luctus leo, ut egestas justo nibh in justo. Curabitur dignissim justo
+                        nec velit convallis, ac porttitor leo dapibus. Suspendisse potenti. Nulla eget neque ac neque
+                        rutrum ullamcorper. Cras dapibus orci a enim facilisis, at varius est luctus. Vivamus eu lorem
+                        quis nibh sollicitudin tincidunt. Donec vehicula tellus sit amet purus lobortis, eget gravida
+                        orci efficitur.
+                    </p>
+                    <p>
+                        Integer sed magna eu lorem interdum sollicitudin. Nullam hendrerit lorem in dolor suscipit
+                        luctus. Morbi condimentum elit nec magna congue, sed porta eros blandit. Mauris condimentum
+                        velit sed metus varius fermentum. In efficitur orci in malesuada tristique. Suspendisse potenti.
+                        Vivamus venenatis lacinia neque, nec varius orci posuere non. Etiam tincidunt, mi at bibendum
+                        finibus, turpis eros mattis nunc, at hendrerit neque lacus a mauris. Vestibulum tristique felis
+                        at dolor iaculis, vitae lobortis erat sodales.
+                    </p>
+                    <p>
+                        Fusce accumsan est vitae justo feugiat volutpat. Sed nec blandit nibh, ac viverra risus. Integer
+                        varius ante eget orci lobortis bibendum. Sed sollicitudin, libero ac cursus varius, felis nunc
+                        egestas lectus, ut laoreet magna lacus nec lorem. Maecenas fringilla dapibus porttitor. Etiam
+                        vel sodales nulla. Sed tincidunt laoreet tellus, at fringilla enim posuere a. Mauris tincidunt
+                        felis a turpis laoreet, eget condimentum ex ultrices.
+                    </p>
+                    <p>
+                        Quisque dignissim nisi quis justo porttitor, nec fermentum nisi hendrerit. Cras finibus sodales
+                        justo, nec pulvinar arcu. Sed maximus, metus eget sagittis finibus, nibh augue imperdiet felis,
+                        vel facilisis nulla enim et velit. Donec nec pretium ligula. Aenean efficitur, nunc nec blandit
+                        lobortis, sapien lorem euismod magna, sed porttitor tortor nulla at augue. Vestibulum efficitur
+                        erat in luctus bibendum. Etiam porttitor, elit sit amet efficitur dapibus, erat quam lacinia
+                        elit, ut finibus orci felis et mauris.
+                    </p>
+                </div>
+            </div>
+
             <div class="row">
                 <div class="person">
                     <div class="person-image">
@@ -162,6 +272,7 @@
             </div>
         </section>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
