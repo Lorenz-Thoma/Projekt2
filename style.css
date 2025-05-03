@@ -158,16 +158,6 @@ ul {
     background-color: rgba(0,0,0,0.5);
     overflow: hidden;
   }
-  
-/*.modal-content {
-    background-color: #fff;
-    margin: 15% auto;
-    padding: 20px;
-    width: 1200px;
-    height: 600px;
-    border-radius: 3px;
-    text-align: center;
-}*/
 
   .modal-content {
     position: fixed;
@@ -177,15 +167,41 @@ ul {
     
     background-color: #fff;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 3px;
     box-sizing: border-box;
     overflow: auto;
     max-height: calc(100vh - 100px); /* verhindert, dass es zu groß wird */
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+    text-align: justify;      /* Blocksatz */
+    hyphens: auto;            /* Automatische Silbentrennung */
+    word-break: break-word;   /* Wörter umbrechen, wenn nötig */
   }
   
 .close {
-    float: right;
+    position: absolute;
+    top: 10px;    /* Abstand von oben */
+    right: 10px;  /* Abstand von rechts */
     font-size: 24px;
     cursor: pointer;
 }
+
+.person-horiz {
+    display: flex;
+    justify-content: space-between; /* Linke und rechte Seite auseinanderziehen */
+    align-items: center;            /* Vertikal zentrieren */
+    padding: 0 20px; 
+}
+
+.person-image-horiz {
+    position: relative;
+    width: 100%; 
+    height: 400px; 
+    overflow: hidden;
+}
+
+.left-elements {
+    display: flex;
+    align-items: center;
+    gap: 2px; /* Abstand zwischen den beiden linken Elementen */
+  }
